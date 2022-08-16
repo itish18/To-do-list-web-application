@@ -1,0 +1,31 @@
+.heading {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: 300;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 30px 0px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  border: 1px solid purple;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: larger;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+}
+
+.add {
+  text-align: right;
+}

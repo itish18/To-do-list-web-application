@@ -1,0 +1,53 @@
+.card {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 0px;
+  width: auto;
+  background-color: white;
+  box-shadow: 1px 2px 14px -2px rgba(0, 0, 0, 0.84);
+}
+
+.card p {
+  font-size: xx-large;
+}
+
+.butt {
+  text-align: right;
+  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  border: 1px solid purple;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: larger;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: purple;
+  background-color: white;
+}
+
+.card:hover {
+  -webkit-transform: translateY(-6px);
+  -moz-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  -o-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+
+.showGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
